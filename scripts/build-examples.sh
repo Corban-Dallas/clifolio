@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-mkdir -p dist
+# mkdir -p dist
 
 # Skip if no Cargo.toml (not a Rust project)
 if [ ! -f "Cargo.toml" ]; then
